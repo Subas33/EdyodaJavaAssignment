@@ -31,7 +31,7 @@ class LeapYear {
 	    Scanner scan = new Scanner(System.in);
 		System.out.print("Enter Year : ");
 		int input = scan.nextInt();
-		Main solution = new Main();
+		LeapYear solution = new LeapYear();
 		if(solution.find(input)){
 		    System.out.println("Leap Year");;
 		}
