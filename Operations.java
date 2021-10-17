@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class Operations {
     
     
     public void sumOfTwo(int a,int b){
@@ -36,7 +36,7 @@ class Main {
 
 		
 		
-		Main solution = new Main();
+		Operations solution = new Operations();
 		
 		solution.sumOfTwo(inputOne,inputTwo);
 		solution.sumOfThree(inputOne,inputTwo,inputThree);
